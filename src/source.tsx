@@ -115,8 +115,8 @@ export const projects = [
     name: "Dal - Programming Learning Platform",
     description: `Dal is a frontend-based web platform designed to help beginners learn programming fundamentals in a structured and interactive way. The website provides essential programming resources, learning roadmaps, and practical exercises to guide users through their journey. It focuses on making programming more accessible through a simple and engaging UI.`,
     image: dall,
-    url: "https://www.youtube.com/channel/UCEtnsPZQEd0l1tbr_nDQd5Q?sub_confirmation=1",
-    url1: "dalforprogramming",
+    url: "https://am172.github.io/dalforprogramming/index.html",
+    url1: "https://github.com/am172/dalforprogramming",
   },
   {
     name: "BlogApp - A Simple Blogging Platform",
