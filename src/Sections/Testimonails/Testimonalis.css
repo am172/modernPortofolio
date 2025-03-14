@@ -1,0 +1,141 @@
+#testimonails{
+    overflow: hidden;
+    position: relative;
+    padding: 50px 0;
+    background: rgba(var(--bg-secondary-rgb),0,8);
+}
+
+#testimonails::before,
+#testimonails::after{
+    content: "";
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    top: 0;
+    z-index: 2;
+}
+
+#testimonails::before{
+    left: 0;
+    background: linear-gradient(to left,transparent,var(--bg-secondary));
+    
+}
+#testimonails::after{
+    right: 0;
+    background: linear-gradient(to right,transparent,var(--bg-secondary));
+
+}
+
+#testimonails .sub__title{
+    text-align: center;
+}
+
+#testimonails .testimonails{
+    margin-top: 50px;
+    padding: 20px 0;
+    position: static;
+    height: 100%;
+}
+
+#testimonails .testimonails::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+    width: 100%;
+    height: 60px;
+    /* change 100 */
+    background: linear-gradient(
+        to bottom,
+        var(--bg-secondary),
+        var(--bg-secondary),
+        var(--bg-secondary)
+    );
+}
+
+#testimonails .testimonail{
+    height: auto;
+    max-width: 60%;
+    background: var(--bg-secondary);
+    padding: 40px;
+    box-shadow: var(--border-shadow);
+    border-radius: var(--radius-4);
+    position: relative;
+}
+#testimonails .flex{
+    align-items: center;
+    gap: 10px;
+}
+
+
+#testimonails .user{
+    margin-bottom: 30px;
+}
+
+#testimonails .name{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#testimonails .content{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#testimonails .stars__container{
+    justify-content: flex-start;
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+}
+
+
+
+/* RESPONSIVE */
+
+@media (max-width:767px) {
+    #testimonails .testimonail{
+        padding: 20px;
+    }
+    #testimonails .testimonail p{
+        font-size: 12px;
+    }
+    #testimonails .stars__container{
+        bottom: 20px;
+        left: 20px;
+    }
+}
+
+@media (max-width:600px) {
+    #testimonails .testimonail{
+        max-width: 100%;
+    }
+    #testimonails{
+        padding: 50px 20px;
+    }
+    #testimonails .testimonail .row{
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+        text-align: left;
+    }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
