@@ -32,3 +32,9 @@
 .code__block .dot:nth-child(2){
     background: var(--warning);
 }
+
+@media (max-width:768px) {
+    .code__block{
+        font-size: 8px;
+    }
+}
