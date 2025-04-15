@@ -38,7 +38,7 @@ const Header = () => {
                             </Link>
                             <a
                                 className="btn btn__primary"
-                                href="/public/CV.pdf"
+                                href="/CV.pdf"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
