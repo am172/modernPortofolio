@@ -1,0 +1,176 @@
+.project-details {
+  direction: ltr;
+  text-align: center;
+}
+
+.thumbnail{
+  margin-top: -54px;
+}
+
+.project-icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%; 
+  object-fit: cover;
+  border: 2px solid #a780ff; 
+}
+
+.toggle-btn {
+  display: block;
+  margin: 1rem auto;
+  padding: 0.5rem 3.5rem;
+  background: #5100ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+  font-size: 18px;
+}
+
+.toggle-btn:hover {
+    background-color: #8a58ff;
+  color: #ffffff;
+
+
+}
+
+
+.lang-toggle {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0rem;
+
+    
+}
+
+.lang-toggle button {
+  padding: 0.3rem 1.4rem;
+  border: none;
+  background: #eeeeee75;
+  cursor: pointer;
+  font-weight: bold;
+  
+}
+
+.lang-toggle .active {
+  background: #5100ff;
+  color: #fff;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+
+}
+
+.images{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  gap: 10px;
+}
+.images img {
+  max-width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
+
+.teck{
+margin: 44px 0;
+
+}
+
+.hTeck{
+  font-size: 30px;
+}
+.tech-list {
+  list-style: none;
+  padding-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+
+.stacks__container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 5px;
+}
+.links a {
+  margin-right: 1.5rem;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #5100ff;
+}
+.links a:hover{
+    background-color: #7b44fa;
+
+}
+
+
+.problem-box, .solution-box {
+  background-color: #1e1e2f;
+  border-left: 4px solid #5100ff;
+  margin-bottom: 1.5rem;
+  border-radius: 10px;
+  color: #eee;
+  display: flex;
+}
+
+.problem-box img,
+.solution-box img {
+  color: #a780ff;
+  padding: 14px;
+  flex: .2;
+  width: 5px;
+  border-right: 4px solid #5100ff;
+  border-radius: 10px;
+}
+
+.problem-box p,
+.solution-box p {
+  font-size: 1rem;
+  padding: 10px;
+  line-height: 1.6;
+  margin: 0;
+  flex: 1.8;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 600px) {
+    .problem-box, .solution-box{
+      display: grid;
+      border-left: none;
+    }
+    .problem-box img,
+    .solution-box img {
+  color: #a780ff;
+  padding: 14px;
+  text-align: center;
+  border: none;
+  width: 80px;
+  margin: 0 auto;
+
+}
+
+.problem-box p,
+.solution-box p {
+  font-size: 1rem;
+  padding: 10px;
+
+}
+.project-icon {
+  width: 50px;
+  height: 50px;
+
+}
+}
