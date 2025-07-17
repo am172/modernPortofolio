@@ -1,3 +1,4 @@
+
 import Odometer from 'react-odometerjs'
 import 'odometer/themes/odometer-theme-default.css';
 
@@ -11,8 +12,8 @@ const Points = () => {
     const[problems, setProblems] = useState(0);
     useEffect(() => {
         const timeout = setTimeout(()=>{
-            setExperience(1);
-            setProjects(6);
+            setExperience(2);
+            setProjects(8);
             setAwards(2);
             setProblems(80);
         },4500)
