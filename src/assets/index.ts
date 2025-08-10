@@ -1,4 +1,4 @@
-export {default as logo} from "./logo.svg"
+export {default as logo} from "./logo.png"
 export {default as amr} from "./amr.png"
 
 
