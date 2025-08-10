@@ -3,7 +3,7 @@ export {default as amr} from "./amr.png"
 
 
 export {default as dall} from "./DALL·E 2.jpg"
-export {default as newPhoto} from "./photo_2025-03-12_04-20-46-removebg-preview.png"
+// export {default as newPhoto} from "./photo_2025-03-12_04-20-46-removebg-preview.png"
 export {default as note} from "./taskat.jpg"
 export { default as blog } from "./Capture3.jpg"
 
