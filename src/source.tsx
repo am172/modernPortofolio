@@ -11,7 +11,6 @@ import { FaReact } from "react-icons/fa6";
 import { RiCss3Fill, RiDatabase2Line, RiFile2Line, RiDashboardFill, RiFunctionAddLine, RiHtml5Line, RiMiniProgramFill, RiNodejsLine, RiServerLine, RiTailwindCssFill } from "react-icons/ri";
 import {
   alun,
-  blog,
   dall,
   ecom,
   elon,
@@ -61,7 +60,6 @@ import {
   fatwa1,
   fatwa2,
   fatwa3,
-  task,
   dal1,
   dal2,
   dal3,
@@ -84,7 +82,6 @@ import {
 import { DiJavascript } from "react-icons/di";
 import { BsBootstrap, BsLinkedin, BsTelegram } from "react-icons/bs";
 import { LuFunctionSquare } from "react-icons/lu";
-import { BiBrain } from "react-icons/bi";
 
 export const navigation = [
   { name: "Home", id: "header" },
@@ -220,9 +217,6 @@ export const projects = [
     url: "https://github.com/am172/Construction-Company-Site-Template-main", // حط لينك المشروع لو موجود
     url1: "https://moqawel.vercel.app/" // مثال للعرض الحي
   },
-
-
- 
   {
     id: "second-portfolio",
     name: "Second Portofolio",
